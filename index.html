@@ -6,60 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
     <header id="The Hamburger">
-        <h1>THE MOST POPULAR FOOD IN THE WORLD: THE HAMBURGER</h1>
-        <nav>
+        <nav class="menu">
+            <a href="#" class="logo"></a>
             <ul>
-                <li><a href="./History.html">HISTORY</a></li>
-                <li><a href="./Company.html">SALES COMPANIES</a></li>
-                <li><a href="./Ranking.html">RANKING</a></li>
+                <li><a href="./history.html">HISTORY</a></li>
+                <li><a href="./company.html">SALES COMPANIES</a></li>
+                <li><a href="./ranking.html">RANKING</a></li>
             </ul>
         </nav>
-        <div>
-            <img src="https://assets.unileversolutions.com/recipes-v2/232055.jpg?imwidth=1600" alt="">
-        </div>
     </header>
 
     <main>
-        <section>
+        <section class="info">
             <article>
-                <h2>What is a hamburger?</h2>
+                <h1 class="index">THE MOST POPULAR FOOD: THE HAMBURGER</h1>
+                <h2>What is a <span>hamburger</span>?</h2>
                 <p>A hamburger is a kind of sandwich or pancake that is made by agglutinating minced meat.
                     Other ingredients are usually added and it is served as a sandwich (with the meat between
                     two pieces of bread). For example, cheese, bacon (bacon or bacon), tomato, lettuce, onion
                     and cucumber can be added to the hamburger. The most common condiments are mustard, ketchup,
                     and mayonnaise. As a side dish, it is customary to opt for potato chips (french fries).</p>
             </article>
-            <iframe width="1450" height="520" src="https://www.youtube.com/embed/dA0VGEbbw4g"
+            <iframe width="100%" height="900vh" src="https://www.youtube.com/embed/dA0VGEbbw4g"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
-        </section>
-        <article>
-            <h2>Are hambuergers healthy?</h2>
-            <p>It is often said that a healthy diet is one that provides all the necessary nutrients and
+            <article>
+                <h2>Are <span>hambuergers</span> healthy?</h2>
+                <p>It is often said that a healthy diet is one that provides all the necessary nutrients and
                 includes all food groups, always in the right proportions. Meat burgers provide protein,
                 but this is not the only nutrient that we find in its composition, let's see the example
                 with a beef burger below:</p>
             
                 <ul>
-                    <li>207 calories</li>
-                    <li>19.4 grams of protein</li>
-                    <li>14 grams of fat</li>
-                    <li>0.9 grams of carbohydrates</li>
+                    <li><span>207</span> calories</li>
+                    <li><span>19.4</span> grams of protein</li>
+                    <li><span>14</span> grams of fat</li>
+                    <li><span>0.9 </span> grams of carbohydrates</li>
                 </ul>
             
             <p>To make a hamburger, it is also possible to choose less caloric meats, such as chicken, so
                 the nutritional composition is as follows:</p>
             
                 <ul>
-                    <li>142 calories</li>
-                    <li>17.84 grams of protein</li>
-                    <li>7.35 grams of fat</li>
-                    <li>0 grams of carbohydrates</li>
+                    <li><span>142</span> calories</li>
+                    <li><span>17.84</span> grams of protein</li>
+                    <li><span>7.35</span> grams of fat</li>
+                    <li><span>0</span> grams of carbohydrates</li>
                 </ul>
             
             <p>In any case, we are talking about a food that has a place in a balanced diet, as long as
@@ -67,13 +67,30 @@
                 has caught your attention. The fats that meat contains are saturated and although they
                 are not the most beneficial, the truth is that consuming them in small proportions is
                 also necessary.</p>
-            <p>_____________________________________________________________________________________________________________________________________________________________________________________
-            </p>
-        </article>
+            </article>
+        </section>
+        <form action="" method="post">
+            <fieldset>
+                <legend>FOR MORE INFORMATION <span>REGISTER HERE</span></legend>
+                <label for="name">
+                    <span>Enter your name:</span>
+                    <input type="text" name="name" placeholder="Name" required id="">
+                </label>
+                <label for="user">
+                    <span>Enter a user:</span>
+                    <input type="user" name="user" placeholder="User" required id="">
+                </label>
+                <label for="password">
+                    <span>Enter a password:</span>
+                    <input type="password" name="password" placeholder="Password" required id="">
+                </label>
+            </fieldset>
+            <input type="submit"> 
+            <input type="reset" value="reset">
+        </form>
     </main>
-
     <footer>
-        <nav>
+        <nav class="pie">
             <ul>
                 <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
                 <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>

@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeseva One', cursive;
+}
+html{
+    width: 100%;
+    height: 100vh;
+    background-color: #842020;
+}
+main{
+    background-image: linear-gradient(to top, beige, #ffcbcb);
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px 20px;
+}
+.logo{
+    background-image: url(../img/burger-solid.svg);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    padding: 30px;
+    margin: 0 100px;
+}
+h1{
+    font-size: 50px;
+    color: black;
+}
+.index{
+    font-size: 50px;
+    color: beige;
+    text-align: center;
+    background-image: url(https://assets.unileversolutions.com/recipes-v2/232055.jpg?imwidth=1600);
+    padding: 60px;
+    height: 1200px;
+}
+span{
+    color: #842020;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.menu ul li a:hover{
+    color: beige;
+    transition: .5s;
+}
+header div img{
+    height: 140vh;
+    width: 100%;
+}
+.info{
+    align-items: center;
+    padding: 20px 20px 20px;
+}
+h2{
+    font-size: 50px;
+    color: black;
+}
+.info p{
+    font-size: 25px;
+    color: black;
+}
+.info ul{
+    padding: 20px 20px 20px;
+}
+.info ul li{
+    font-size: 25px;
+    color: black;
+}
+/*INDEX-FORMULARIO*/
+form{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+form fieldset legend{
+    font-size: 30px;
+    color: black;
+}
+form fieldset label span{
+    font-size: 30px;
+}
+form input{
+    font-size: 30px;
+}
+/*HISTORY*/
+main div img{
+    height: 90vh;
+    width: 100%;
+}
+/*COMPANY*/
+.empresas{
+    align-items: center;
+    padding: 20px 20px 20px;
+}
+.empresas ul{
+    padding: 20px 20px 20px;
+}
+.empresas ul li{
+    font-size: 25px;
+    color: black;
+}
+/*RANKING*/
+h3{
+    font-size: 45px;
+    color: black;
+}
+footer{
+    width: 100%;
+    height: 0vh;
+}
+footer a{
+    display: flex;  
+    align-items: center;
+    justify-content: left;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+footer a:hover{
+    color: beige;
+    transition: .5s;
+}
+.pie{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+.pie ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 30px 50px;
+}
+.pie ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+.pie ul li a:hover{
+    color: beige;
+    transition: .5s;
+}
